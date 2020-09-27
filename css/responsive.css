@@ -1,0 +1,189 @@
+/* Extra small devices (portrait phones, less than 576px)*/
+@media (min-width: 320px) and (max-width: 575.98px) {
+    
+    .icon{
+        display: none;
+    }
+    .welcome p{
+        text-align: center;
+        padding-bottom: 10px;
+        font-size: 20px;
+        
+    }
+    .navbar-light .navbar-toggler {
+     border-color: red;
+    
+}
+    .navbar-nav .nav-item.active .nav-link,
+    .navbar-nav .nav-item .nav-link{
+        background-color: green;
+        text-align: center;
+        color: #fff;
+        border-bottom: 2px solid #fff;
+}
+    
+    
+/*    menu part responsive end*/
+    
+/*    banner part responsive start */
+    .banner{
+        width: 100%;
+    }
+    .banner_con{
+        text-align: center;
+    }
+    
+    .banner_con h1 {
+    font-size: 30px;
+    padding-bottom: 12px;
+}
+    
+    .banner_con p {
+    font-size: 12px;
+    text-align: justify;
+}
+
+    .hidden{
+        display: none;
+    }
+/*    banner part responsive end*/
+    
+/*  service part responsive start   */
+    .ser_con {
+    margin-bottom: 72px;
+}
+    
+    .ser_icon_main {
+    top: 0%;
+}
+/*  service part responsive end  */
+  .big_img {
+    margin-bottom: 20px;
+}
+    .team_head p{
+        padding-bottom: 15px;
+    }
+    .piramid {
+    left: 44%;
+    top: 35%;
+  
+}
+    
+    
+    .testi_con {
+    margin-bottom: 10px;
+}
+    
+    
+/*    footer part responsive start */
+    .f_logo{
+        text-align: center;
+    }
+    .f_logo_con{
+        text-align: center;
+    }
+    
+    .f_common_head{
+        text-align: center;
+        padding-top: 15px;
+    }
+    .f_icon{
+        margin-left: 40px;
+    }
+    .f_menu_respon{
+        margin-left: 50px;
+    }
+/*    footer part responsive end*/
+    
+
+    
+}
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+    
+    
+    .navbar-light .navbar-toggler {
+     border-color: red;
+    
+}
+    .navbar-nav .nav-item.active .nav-link,
+    .navbar-nav .nav-item .nav-link{
+        background-color: green;
+        text-align: center;
+        color: #fff;
+        border-bottom: 2px solid #fff;
+}
+    
+    .banner_con{
+        text-align: center;
+    }
+    
+    .common_head h5:after {
+    left: 39.5%;
+}
+    .common_head h5:before {
+    left: 49%;
+}
+    .common_head h5 span:before {
+    left: 53%;
+}
+    .hidden{
+        /*display: none;*/
+       
+    }
+
+    
+    .about_con p {
+     padding-top: 0px; 
+  
+}
+    .sm_respon{
+        margin-bottom: 56px;
+    }
+      .big_img {
+    margin-bottom: 20px;
+}
+    .team_head p{
+        padding-bottom: 15px;
+    }
+    
+    .piramid {
+    left: 43%;
+    top: 32%;
+}
+   
+    
+    
+    
+    /*    footer part responsive start */
+    .f_logo{
+        text-align: center;
+    }
+    .f_logo_con{
+        text-align: center;
+    }
+    
+    .f_common_head{
+        text-align: center;
+        padding-top: 15px;
+    }
+    .f_icon{
+        margin-left: 40px;
+    }
+    .f_menu_respon{
+        margin-left: 111px;
+    }
+/*    footer part responsive end*/
+   
+    
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) { ... }
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) { ... }
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) { ... }
